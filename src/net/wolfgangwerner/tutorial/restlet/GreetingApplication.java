@@ -9,10 +9,7 @@ public class GreetingApplication extends Application {
 	@Override
 	public Restlet createInboundRoot() {
 		Router router = new Router(getContext());
-		
 		router.attach("/greet",GreetingResource.class);
-		
 		return router;
 	}
-
 }
