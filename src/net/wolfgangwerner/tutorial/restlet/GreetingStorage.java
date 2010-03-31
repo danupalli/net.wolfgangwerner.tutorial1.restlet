@@ -5,7 +5,7 @@ public class GreetingStorage {
 	private String text;
 
 	private GreetingStorage() {
-		this.text = "Servus.";
+		this.text = "Greetings, earthling";
 	}
 
 	public static GreetingStorage getInstance() {
@@ -19,5 +19,4 @@ public class GreetingStorage {
 	public void setText(String text) {
 		this.text = text;
 	}
-
 }
